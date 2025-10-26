@@ -16,6 +16,11 @@ Desarrollar un flujo completo de procesamiento de datos masivos que permita:
 
 ---
 
+Nidia Patricia Barrera Riaño
+Estudiante de Ingeniería de Sistemas
+Universidad Nacional Abierta y a Distancia – 
+Grupo: 32
+Octubre de 2025
 
 
 
