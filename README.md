@@ -9,9 +9,9 @@ En este trabajo se desarrollara la explicación de la implementación de un proc
 ## - Objetivos 
 
 Desarrollar un flujo completo de procesamiento de datos masivos que permita:
-1. Cargar información desde un origen en **HDFS**.  
-2. Realizar operaciones de **limpieza y transformación**.  
-3. Ejecutar un **análisis exploratorio** utilizando DataFrames.  
+1. Cargar información desde un origen en HDFS.  
+2. Realizar operaciones de limpieza y transformación.  
+3. Ejecutar un análisis exploratorio utilizando DataFrames.  
 4. Guardar los resultados limpios y procesados en una carpeta dentro del sistema distribuido.
 
 ---
