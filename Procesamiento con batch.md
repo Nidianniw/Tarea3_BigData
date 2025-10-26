@@ -1,6 +1,6 @@
 ## 🧠 Desarrollo del procesamiento batch
 
-A continuación se describen los pasos realizados en el proyecto con los **comandos utilizados**.
+A continuación se describen los pasos realizados en el proyecto con los comandos utilizados.
 
 ---
 
@@ -46,14 +46,14 @@ Código:
 ```python
 print("\n=== Limpieza y transformación de datos ===\n")
 
-- Conteo de valores nulo
+#Conteo de valores nulo
 df.select([count(when(col(c).isNull(), c)).alias(c) for c in df.columns]).show()
 
--Eliminar filas con valores nulos en campos clave
+#Eliminar filas con valores nulos en campos clave
 columnas_clave = ["Nombre departamento", "Nombre municipio", "Edad", "Sexo"]
 df_clean = df.dropna(subset=columnas_clave)
 
-- Convertir la edad a tipo entero
+#Convertir la edad a tipo entero
 df_clean = df_clean.withColumn("Edad", col("Edad").cast("int"))
 ```
 ###  4️⃣ Análisis exploratorio de datos (EDA)
