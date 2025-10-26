@@ -1,29 +1,20 @@
-# 🧩 Procesamiento Batch de Casos Positivos de COVID-19 en Colombia
+# Procesamiento Batch de Casos Positivos de COVID-19 en Colombia
 
-## 📘 Descripción del proyecto
-
-El presente trabajo corresponde al desarrollo de la tarea 3, donde se evidencia el como fue el desarrollo del procesamiento en batch haciendo uso de Apache Spark, con el objetivo de analizar un conjunto de datos reales sobre los casos positivos de COVID-19 en Colombia. El procesamiento se realiza sobre un archivo CSV almacenado en HDFS, y comprende las etapas de carga limpieza, transformación, análisis exploratorio de datos (EDA) y almacenamiento de los resultados procesados.
-
-
-
-## 🧠 Desarrollo del procesamiento batch
-
-A continuación se describen los pasos realizados en el proyecto con los **comandos utilizados**.
+## - Introducción
+  
+En este trabajo se desarrollara la explicación de la implementación de un proceso de procesamiento en batch haciendo uso de Apache Spark y PySpark, para analizar un conjunto de datos reales sobre los casos positivos de COVID-19 en Colombia. El procesamiento se realiza sobre un archivo CSV almacenado en **HDFS**, y comprende las etapas de carga, limpieza, transformación, análisis exploratorio de datos (EDA) y almacenamiento de los resultados procesados.
 
 ---
 
-### 🟢 1️⃣ Crear la sesión de Spark
+## - Objetivos 
 
-Se inicializa una sesión de Spark que permite ejecutar el procesamiento distribuido.  
+Desarrollar un flujo completo de procesamiento de datos masivos que permita:
+1. Cargar información desde un origen en **HDFS**.  
+2. Realizar operaciones de **limpieza y transformación**.  
+3. Ejecutar un **análisis exploratorio** utilizando DataFrames.  
+4. Guardar los resultados limpios y procesados en una carpeta dentro del sistema distribuido.
 
-```python
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, count, when
-
-spark = SparkSession.builder \
-    .appName("Tarea3_Procesamiento_Batch_COVID19") \
-    .getOrCreate()
-
+---
 
 
 
