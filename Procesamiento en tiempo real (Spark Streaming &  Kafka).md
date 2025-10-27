@@ -4,7 +4,8 @@ En el procesamiento en tiempo real, se implementó una simulación de sensores q
 
 Posteriormente, una aplicación Spark Streaming consume los mensajes en tiempo real, transformando los datos y calculando estadísticas promedio de temperatura y humedad por ventanas de tiempo.
 
-## 🪄 Pasos de instalación y ejecución
+ **A continuación se describe los pasos de instalación y ejecución**
+ 
 ### 1️⃣ Instalar librería de Kafka en Python
 ```python
 Copiar código
