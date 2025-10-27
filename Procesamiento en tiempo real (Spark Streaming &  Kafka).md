@@ -1,5 +1,9 @@
 # 🚀 Desarrollo del Procesamiento en Tiempo Real con Apache Kafka y Spark Streaming
 
+En el procesamiento en tiempo real, se implementó una simulación de sensores que generan datos continuamente mediante Kafka Producer, enviando la información a un topic llamado sensor_data.
+
+Posteriormente, una aplicación Spark Streaming consume los mensajes en tiempo real, transformando los datos y calculando estadísticas promedio de temperatura y humedad por ventanas de tiempo.
+
 ## 🪄 Pasos de instalación y ejecución
 ### 1️⃣ Instalar librería de Kafka en Python
 ```python
