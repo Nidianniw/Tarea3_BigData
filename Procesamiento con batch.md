@@ -11,7 +11,16 @@ Se desarrolló una aplicación en PySpark que realiza las siguientes tareas:
 ## **A continuación se describen los pasos realizados en el proyecto con los comandos utilizados.**
 
 ---
-
+Codigo para incializar hadoop
+```python
+start-dfs.sh
+start-yarn.sh
+```
+Codigo para que spark utilice la version correcta de java
+```python
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH
+```
 ###  1️⃣ Crear la sesión de Spark
 
 Se inicializa una sesión de Spark que permite ejecutar el procesamiento distribuido.  
