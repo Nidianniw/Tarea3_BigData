@@ -1,6 +1,14 @@
 ## 🧠 Desarrollo del procesamiento batch
+En el procesamiento batch, se trabajó con un conjunto de datos almacenado en HDFS, correspondiente a los casos positivos de COVID-19 en Colombia.
+Se desarrolló una aplicación en PySpark que realiza las siguientes tareas:
 
-A continuación se describen los pasos realizados en el proyecto con los comandos utilizados.
+- Carga del conjunto de datos desde el sistema distribuido HDFS.
+- Limpieza y transformación de los datos (manejo de valores nulos, conversión de tipos).
+- Análisis exploratorio de datos (EDA) utilizando DataFrames.
+- Generación de estadísticas descriptivas y conteos agrupados por sexo, edad y departamento.
+- Almacenamiento de los resultados procesados nuevamente en HDFS.
+
+**A continuación se describen los pasos realizados en el proyecto con los comandos utilizados.**
 
 ---
 
