@@ -10,8 +10,8 @@ pip install kafka-python
 código
 ```python
 wget https://downloads.apache.org/kafka/3.6.2/kafka_2.13-3.6.2.tgz
-tar -xzf kafka_2.13-3.6.2.tgz
-sudo mv kafka_2.13-3.6.2 /opt/Kafka
+tar -xzf kafka_2.12-3.5.6.tgz
+sudo mv kafka_2.12-3.5.6 /opt/Kafka
 ```
 ### 3️⃣ Iniciar los servicios de Kafka
 
