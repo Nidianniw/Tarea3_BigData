@@ -7,8 +7,8 @@ Posteriormente, una aplicación Spark Streaming consume los mensajes en tiempo r
  ## **A continuación se describe los pasos de instalación y ejecución**
  
 ### 1️⃣ Instalar librería de Kafka en Python
+ código
 ```python
-Copiar código
 pip install kafka-python
 ```
 ### 2️⃣ Descargar e instalar Apache Kafka
