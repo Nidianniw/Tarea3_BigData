@@ -1,20 +1,17 @@
-# Procesamiento Batch de Casos Positivos de COVID-19 en Colombia
-
+# 🧠 Proyecto Big Data con Apache Spark y Kafka
 ## - Introducción
   
-En este trabajo se desarrollara la explicación de la implementación de un proceso de procesamiento en batch haciendo uso de Apache Spark y PySpark, para analizar un conjunto de datos reales sobre los casos positivos de COVID-19 en Colombia. El procesamiento se realiza sobre un archivo CSV almacenado en **HDFS**, y comprende las etapas de carga, limpieza, transformación, análisis exploratorio de datos (EDA) y almacenamiento de los resultados procesados.
+Este proyecto integra dos enfoques fundamentales del procesamiento de datos masivos (Big Data):
+
+1. Procesamiento por lotes (Batch Processing)
+2. Procesamiento en tiempo real (Real-Time Streaming)
+
+Ambos fueron desarrollados con Apache Spark, ejecutándose sobre el ecosistema Hadoop, y en el caso del procesamiento en tiempo real, complementado con Apache Kafka como sistema de mensajería distribuida.
+
+El propósito principal es demostrar cómo las herramientas de computación distribuida permiten analizar grandes volúmenes de información, tanto histórica como en flujo continuo, optimizando la toma de decisiones y el análisis predictivo.
 
 ---
-
-## - Objetivos 
-
-Desarrollar un flujo completo de procesamiento de datos masivos que permita:
-1. Cargar información desde un origen en HDFS.  
-2. Realizar operaciones de limpieza y transformación.  
-3. Ejecutar un análisis exploratorio utilizando DataFrames.  
-4. Guardar los resultados limpios y procesados en una carpeta dentro del sistema distribuido.
-
----
+## - Autora 
 
 Nidia Patricia Barrera Riaño  
 Estudiante de Ingeniería de Sistemas  
