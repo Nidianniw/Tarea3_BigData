@@ -8,7 +8,7 @@ Se desarrolló una aplicación en PySpark que realiza las siguientes tareas:
 - Generación de estadísticas descriptivas y conteos agrupados por sexo, edad y departamento.
 - Almacenamiento de los resultados procesados nuevamente en HDFS.
 
-**A continuación se describen los pasos realizados en el proyecto con los comandos utilizados.**
+## **A continuación se describen los pasos realizados en el proyecto con los comandos utilizados.**
 
 ---
 
